@@ -1,0 +1,15 @@
+64b3061aa25bf69f56714ef32165055115583288		branch '0.10' of git://github.com/reactjs/react-rails
+81b9a106a29e65492d86d713e5245995739a6720		branch '0.11' of git://github.com/reactjs/react-rails
+a3b4ddc9aed285e1236aa78a4b01e9da51f24234		branch '0.12' of git://github.com/reactjs/react-rails
+261a2c9c81c339f7c9ae5e7fcb90f9b49a0b8258		branch '0.9' of git://github.com/reactjs/react-rails
+6be8f9dfde33e694ac5bb5690ad1191c24ed76ff		branch 'master' of git://github.com/reactjs/react-rails
+9ed1c0219bce50b485b0dd5c82da343e3df6d849	not-for-merge	tag 'v0.10.0.0' of git://github.com/reactjs/react-rails
+e1d3ee1c7d221826e290c494d85d7f34a80ab062	not-for-merge	tag 'v0.11.1.0' of git://github.com/reactjs/react-rails
+a50fc7072d91f1640b5b15c3562ea171badd0591	not-for-merge	tag 'v0.12.0.0' of git://github.com/reactjs/react-rails
+a3b4ddc9aed285e1236aa78a4b01e9da51f24234	not-for-merge	tag 'v0.12.1.0' of git://github.com/reactjs/react-rails
+c01256f12b6ac060e72ff9d1306084a1df5badb4	not-for-merge	tag 'v0.4.1.0' of git://github.com/reactjs/react-rails
+fdf18a6a6413ba9ae0a68d533811888148075efd	not-for-merge	tag 'v0.4.1.1' of git://github.com/reactjs/react-rails
+ea74c3b8f0e22ca32a0539d5bcb023dae8ff7f41	not-for-merge	tag 'v0.5.1.0' of git://github.com/reactjs/react-rails
+99638c2ea24893dbc7d542518975362a78b903d7	not-for-merge	tag 'v0.5.2.0' of git://github.com/reactjs/react-rails
+a0c0cc24c92f40a64a71714a4a769437c58ee996	not-for-merge	tag 'v0.8.0.0' of git://github.com/reactjs/react-rails
+f883810b455e87cc57a0d98d3fb3c629a3ad6e56	not-for-merge	tag 'v0.9.0.0' of git://github.com/reactjs/react-rails

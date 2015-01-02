@@ -1,0 +1,11 @@
+/usr/local/rvm/rubies/ruby-2.2.0/bin/ruby -r ./siteconf20141231-22619-1eflooo.rb extconf.rb 
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling debug_inspector.c
+linking shared-object debug_inspector.so
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 debug_inspector.so ./.gem.20141231-22619-ee2p9k

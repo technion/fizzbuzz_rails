@@ -1,0 +1,12 @@
+/usr/local/rvm/rubies/ruby-2.1.4/bin/ruby -r ./siteconf20141222-2238-1hcknvu.rb extconf.rb 
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling debug_inspector.c
+linking shared-object debug_inspector.so
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 debug_inspector.so ./.gem.20141222-2238-o9ur8e
+installing default debug_inspector libraries
