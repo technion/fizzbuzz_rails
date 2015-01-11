@@ -4,13 +4,13 @@ class FizzbuzzController < ApplicationController
     1.upto(100) do |n|
       case
         when (n % 3 == 0) && (n % 5 == 0)
-          fbstring <<  { :key => n, :fb => "Fizzbuzz" }
+          fbstring <<  { :fb => "Fizzbuzz" }
         when (n % 3 == 0)
-          fbstring << { :key => n, :fb => "Fizz" }
+          fbstring << { :fb => "Fizz" }
         when (n % 5 == 0)
-          fbstring << { :key => n, :fb => "Buzz"}
+          fbstring << { :fb => "Buzz"}
         else
-          fbstring << { :key => n, :fb => n.to_s } 
+          fbstring << { :fb => n.to_s } 
       end
     end
 

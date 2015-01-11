@@ -36,7 +36,7 @@ var CommentList = React.createClass({
 //        <Comment author={comment.key} key={index}>
 //          {comment.fb}
 //        </Comment>
-	  <div>{comment.fb}</div>
+	  <div key={index}>{comment.fb}</div>
       );
     });
     return (
