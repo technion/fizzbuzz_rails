@@ -6,4 +6,10 @@ class FizzbuzzControllerTest < ActionController::TestCase
     assert_response :success
   end
 
+  test "valid json" do
+    get :run, :format => :json
+    fbj = JSON.parse(response.body)
+    assert_equal fbj.size, 100
+  end
+
 end

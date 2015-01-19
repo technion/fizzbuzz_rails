@@ -21,26 +21,25 @@ var CommentBox = React.createClass({
   },
   render: function() {
     return (
-      <div className="commentBox">
-        <h1>Comments</h1>
-        <CommentList data={this.state.data} />
+      <div className="page-header">
+        <div className="alert alert-info">FB Results</div>
+        <FBNodes data={this.state.data} />
       </div>
     );
   }
 });
 
-var CommentList = React.createClass({
+var FBNodes = React.createClass({
   render: function() {
     var commentNodes = this.props.data.map(function(comment, index) {
       return (
-//        <Comment author={comment.key} key={index}>
-//          {comment.fb}
-//        </Comment>
-	  <div key={index}>{comment.fb}</div>
+	  <button type="button" className="btn btn-lg btn-primary" key={index}>
+	  	{comment.fb}
+	  </button>
       );
     });
     return (
-      <div className="commentList">
+      <div>
         {commentNodes}
       </div>
     );
